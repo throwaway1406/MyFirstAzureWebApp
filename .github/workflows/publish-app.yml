@@ -6,7 +6,7 @@ on:
 
 env:
   AZURE_WEBAPP_NAME: MyFirstAzureWebApp20221006100234
-  AZURE_WEBAPP_PACKAGE_PATH: '.' # Set this to the path to your web app project, defaults to the repository root:
+  AZURE_WEBAPP_PACKAGE_PATH: './MyFirstAzureWebApp' # Set this to the path to your web app project, defaults to the repository root:
   DOTNET_VERSION: '6.0' # The .NET SDK version to use
 
 jobs:
